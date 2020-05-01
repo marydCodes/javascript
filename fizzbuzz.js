@@ -14,3 +14,25 @@ else if (randomNumber%5===0 && randomNumber !== 0){
 else {
   console.log(randomNumber);
 }
+
+/* FizzBuzz 2
+Print all numbers from 1 to 100 with three exceptions:
+- if number is divisible by 3, print fizz
+- if number is divisible by 5, print buzz
+- if number is divisible by 3 and 5, print fizzbuzz
+*/
+
+for(let i=1; i<=100; i++){
+  if(i%3===0){
+    if(i%5===0){
+      console.log("fizzbuzz");
+    }
+    console.log("fizz");
+  }
+  else if (i%5===0){
+    console.log("buzz");
+  }
+  else {
+    console.log(i);
+  }
+}
