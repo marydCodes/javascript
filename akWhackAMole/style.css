@@ -1,0 +1,31 @@
+body {
+  background-color: #530053;
+  color: #ccc;
+  text-align: left;
+}
+
+.nav li{
+  display: inline-block;
+  margin: auto 10px;
+}
+
+.grid {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-content: center;
+  width: 618px;
+  height: 618px;
+}
+
+.square{
+  width: 150px;
+  height: 150px;
+  border-style: solid;
+  border-color: #ccc;
+}
+
+.mole {
+  background-image: url("mole.jpg");
+  background-size: cover;
+}
